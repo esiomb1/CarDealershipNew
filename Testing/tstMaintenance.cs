@@ -180,8 +180,8 @@ namespace tstMaintenance
             //boolean variable to store the results of the vaildation 
             Boolean OK = false;
             //create some test data to assign to the property 
-            string TestDescription = "";
-            string TestCost = "1.00";
+            string TestDescription = "a";
+            string TestCost = "";
             string TestDate = DateTime.Now.Date.ToString();
             //invoke the method 
             OK = AMaitenance.Valid(TestDescription, TestCost, TestDate);
@@ -197,7 +197,7 @@ namespace tstMaintenance
             //boolean variable to store the results of the vaildation 
             Boolean OK = false;
             string TestDescription = "a";
-            string TestCost = "1.00";
+            string TestCost = "1";
             string TestDate = DateTime.Now.Date.ToString();
             //invoke the method 
             OK = AMaitenance.Valid(TestDescription, TestCost, TestDate);
@@ -212,8 +212,8 @@ namespace tstMaintenance
             clsMaintenance AMaitenance = new clsMaintenance();
             //boolean variable to store the results of the vaildation 
             Boolean OK = false;
-            string TestDescription = "aa";
-            string TestCost = "1.00";
+            string TestDescription = "a";
+            string TestCost = "11";
             string TestDate = DateTime.Now.Date.ToString();
             //invoke the method 
             OK = AMaitenance.Valid(TestDescription, TestCost, TestDate);
@@ -228,8 +228,8 @@ namespace tstMaintenance
             clsMaintenance AMaitenance = new clsMaintenance();
             //boolean variable to store the results of the vaildation 
             Boolean OK = false;
-            string TestDescription = "aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaa";
-            string TestCost = "1.00";
+            string TestDescription = "a";
+            string TestCost = "1111111111 1111111111 1111111111 1111111111 111111111";
             string TestDate = DateTime.Now.Date.ToString();
             //invoke the method 
             OK = AMaitenance.Valid(TestDescription, TestCost, TestDate);
@@ -244,8 +244,8 @@ namespace tstMaintenance
             clsMaintenance AMaitenance = new clsMaintenance();
             //boolean variable to store the results of the vaildation 
             Boolean OK = false;
-            string TestDescription = "aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa";
-            string TestCost = "1.00";
+            string TestDescription = "a";
+            string TestCost = "1111111111 1111111111 1111111111 1111111111 1111111111";
             string TestDate = DateTime.Now.Date.ToString();
             //invoke the method 
             OK = AMaitenance.Valid(TestDescription, TestCost, TestDate);
@@ -260,8 +260,8 @@ namespace tstMaintenance
             clsMaintenance AMaitenance = new clsMaintenance();
             //boolean variable to store the results of the vaildation 
             Boolean OK = false;
-            string TestDescription = "aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa";
-            string TestCost = "1.00";
+            string TestDescription = "a";
+            string TestCost = "1111111111 1111111111 1111111111 1111111111 11111111111";
             string TestDate = DateTime.Now.Date.ToString();
             //invoke the method 
             OK = AMaitenance.Valid(TestDescription, TestCost, TestDate);

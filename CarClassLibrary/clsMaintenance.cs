@@ -17,6 +17,12 @@ namespace CarClassLibrary
             {
                 OK = false;
             }
+
+            if(Cost == "")
+            {
+                OK = false;
+            }
+
             return OK;
         }
 
