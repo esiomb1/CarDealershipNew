@@ -380,6 +380,22 @@ namespace Testing
             //test to see that the result is correct
             Assert.IsFalse(OK);
         }
+
+        [TestMethod]
+        public void EmailAddressMinLessOne()
+        {
+            //create an instance of the class we want to create
+            clsCustomer AnCustomer = new clsCustomer();
+            //boolean variable to store the result of the validation
+            Boolean OK = false;
+            //create some test data to assign the property
+            string SomeCustomer = "";
+            //invoke the method
+            OK = AnCustomer.Valid(SomeCustomer);
+            //test to see that the result is ok
+            Assert.IsFalse(OK);
+
+        }
     }
 
 
