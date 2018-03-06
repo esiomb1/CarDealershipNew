@@ -23,6 +23,11 @@ namespace CarClassLibrary
                 OK = false;
             }
 
+            if (MntDate == "")
+            {
+                OK = false;
+            }
+
             return OK;
         }
 
